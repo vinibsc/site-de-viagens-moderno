@@ -1,0 +1,25 @@
+@media (max-width: 720px) {
+
+    .conteudo-principal .foto-principal{
+        width: 100%;
+    }
+
+    .conteudo-principal .foto-principal img{
+        border-radius: 20px 20px 0 0;
+        margin-top: 10px;
+    }
+    .conteudo-principal .texto-sobre {
+        position: relative;
+        background-color: rgb(255, 255, 255);
+        max-width: 100%;
+        margin: -20px 0 0 0;
+        border-radius: 25px;
+    }
+
+    .conteudo-principal{
+        display: block;
+        width: 100%;
+    }
+
+
+}
