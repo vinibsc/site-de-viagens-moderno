@@ -135,6 +135,10 @@ section .viagens .destinos li a img{
 }
 
 section .viagens .destinos li p{
+    text-align: center;
+}
+
+/* section .viagens .destinos li p{
     display: flex;
     position: relative;
     margin: -230px 0%;
@@ -143,16 +147,16 @@ section .viagens .destinos li p{
     font-size: 40px;
     background-color: #0057b39f;
     opacity: 0;
-}
+} */
 
-section .viagens .destinos li p:hover{
+/* section .viagens .destinos li p:hover{
     opacity: 1;
 }
 
 section .viagens .destinos li a img:hover{
     display: flex;
     filter: blur(2px);
-}
+} */
 
 .pesquisa{
     display: flex;
@@ -183,6 +187,7 @@ section .viagens .destinos li a img:hover{
 }
 
 .card-viagens .compra-pass{
+    text-align: center;
     line-height: 24px;
     margin: 0 10px 0;
     font-family: 'Courier New', Courier, monospace;
