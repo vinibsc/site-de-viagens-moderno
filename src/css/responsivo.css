@@ -1,58 +1,64 @@
 @media (max-width: 720px) {
+  .conteudo-principal .foto-principal {
+    width: 100%;
+  }
 
-    .conteudo-principal .foto-principal{
-        width: 100%;
-    }
+  .conteudo-principal .foto-principal img {
+    border-radius: 20px 20px 0 0;
+    margin-top: 10px;
+  }
+  .conteudo-principal .texto-sobre {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    margin: -20px 0 0 0;
+    border-radius: 25px;
+  }
 
-    .conteudo-principal .foto-principal img{
-        border-radius: 20px 20px 0 0;
-        margin-top: 10px;
-    }
-    .conteudo-principal .texto-sobre {
-        position: relative;
-        background-color: rgb(255, 255, 255);
-        max-width: 100%;
-        margin: -20px 0 0 0;
-        border-radius: 25px;
-    }
-
-    .conteudo-principal{
-        display: block;
-        width: 100%;
-    }
-
-
+  .conteudo-principal {
+    display: block;
+    width: 100%;
+  }
 }
 
 @media (max-width: 525px) {
-
-    section .viagens .destinos li a img{
+  section .viagens .destinos li a img {
     display: block;
     max-width: 100%;
-    height: 160px;
-    }
+    height: 140px;
+  }
 
-    section .viagens .destinos li{
+  section .viagens .destinos li {
     max-width: 200px;
-    height: 230px;
-    }
+    height: 140px;
+    
+  }
 
-    .viagens-promocionais .promocoes .card-viagens{
+  .viagens-promocionais .promocoes .card-viagens {
     width: 120px;
     height: 180px;
-    }
+  }
 
-    .viagens-promocionais .promocoes li a img{
+  .viagens-promocionais .promocoes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+  .viagens-promocionais .promocoes li a img {
     width: 100%;
     height: 100px;
     border-radius: 6px;
-    }
+  }
 
-    .card-viagens .compra-pass{
+  .card-viagens .compra-pass {
     line-height: 20px;
     margin: 0 10px 0;
     font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
-}
+    font-family: "Courier New", Courier, monospace;
+  }
 
+  .input input {
+    width: 140px;
+  }
 }
